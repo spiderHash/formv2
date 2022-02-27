@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="updateAddressStyle.css">
+
+    <title>Update Address</title>
+</head>
+<body>
+    <div class="form-sec">
+        <form onsubmit="JavaScript:updateForm(event)" id="form">
+          <div class="name-sec form-row">
+              <label for="name">Enter your Name: </label>
+              <input type="text" name="name" id="name" placeholder="Eg: Adam S">
+          </div>
+          <div id="address-line-1" class="form-row">
+              <label for="addr-line-1">Address Line 1: </label>
+              <input type="text" name="addr-line-1" id="add1" placeholder="1234 Main street">
+          </div>
+          <div id="address-line-2" class="form-row">
+              <label for="addr-line-2">Address Line 2: </label>
+              <input type="text" name="addr-line-2" id="add2" placeholder="Apartment, Studio or floor">
+          </div>
+          <div id="district-div" class="form-row">
+              <label for="district">District: </label>
+              <input type="text" name="district" id="district" placeholder="Delhi">
+          </div>
+            <div class="phone-sec form-row">
+                <label for="phone">Phone-num: </label>
+                <input type="text" name="phone" id="phone" placeholder="+91 ">
+            </div>
+            <div class="submit-sec">
+                <button type="submit" class="submit-btn">Submit</button>
+                <a class="submit-btn" href="index.html">Go Back</a>
+            </div>
+        </form>
+    </div>
+
+
+        <script src="preload.js"></script>
+
+</body>
+</html>

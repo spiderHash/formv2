@@ -1,0 +1,55 @@
+body {
+    background-color: #B1D0E0;
+    text-align: center;
+    color: white;
+}
+
+#user-details {
+    display: inline-block;
+    background-color: #6998AB;
+    padding: 30px 50px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.profile-pic {
+    margin: 20px;
+}
+
+.profile-details {
+    display: table;
+}
+
+p {
+    display: table-row;
+}
+
+.key, .value {
+    display: inline-block;
+    margin: 10px;
+}
+
+.key {
+    color: #1A374D;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.submit-btn {
+    background-color: #B1D0E0;
+    color: 1A374D;
+    padding: 10px 24px;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+}
+
+.submit-btn:hover {
+    background-color: #406882;
+    color: #B1D0E0;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px 24px;
+    border-radius: 10px;
+}

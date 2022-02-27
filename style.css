@@ -1,0 +1,107 @@
+body {
+    background-color: #B1D0E0;
+    text-align: center;
+    color: white;
+}
+
+/* form {
+    margin: auto;
+    padding: 30px 100px;
+    border-radius: 20px;
+    display: table;
+    background-color: #6998AB;
+} */
+
+
+td,table{
+  border: 1px solid black;
+  color: black;
+  padding:10px;
+  align:center;
+}
+
+
+td{
+  width:80px;
+}
+
+.form-sec {
+    margin: auto;
+    padding: 30px 100px;
+    border-radius: 20px;
+    display: table;
+    background-color: #6998AB;
+}
+
+.form-row {
+    display: table-row;
+}
+
+label {
+    display: table-cell;
+    padding: 20px;
+}
+
+input {
+    display: table-cell;
+    width: 250px;
+}
+
+.profile-icon-sec, .submit-sec{
+    text-align: center;
+    margin: 20px;
+}
+
+.profile-icon {
+    color: #406882;
+}
+
+.form-row {
+    margin: 30px auto;
+}
+
+.submit-btn {
+    background-color: #B1D0E0;
+    color: 1A374D;
+    padding: 10px 24px;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+}
+
+.submit-btn:hover {
+    background-color: #406882;
+    color: #B1D0E0;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px 24px;
+    border-radius: 10px;
+}
+
+.update-btn, .display-btn {
+    display: inline-block;
+    margin: 40px;
+}
+
+.btn-1 {
+    background-color: white;
+    color: #406882;
+    transition-duration: 0.4s;
+}
+
+.btn-1:hover {
+    background-color: #406882;
+    color: white;
+}
+
+.btn-2 {
+    background-color: #406882;
+    color: white;
+    transition-duration: 0.4s;
+}
+
+.btn-2:hover {
+    background-color: white;
+    color: #406882;
+}
