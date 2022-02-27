@@ -52,7 +52,13 @@ function deleteForm(event) {
 function testingRollback(event) {
     event.preventDefault() // stop the form from add1itting
     console.log("CALLEDRO");
-    db.testRollback(viewDataCallback);
+    db.testRollback(success);
+}
+
+function testingCommit(event) {
+    event.preventDefault() // stop the form from add1itting
+    console.log("CALLEDCO");
+    db.testCommit(success);
 }
 
 
@@ -94,6 +100,7 @@ function viewDataCallback(result)
       document.getElementById("table").innerHTML = html
   }, 500)
 }
+
 
 //db.displayData(selectResult);
 //db.insertData("testfunction","testfunction","testfunction","testfunction","testfunction", success);

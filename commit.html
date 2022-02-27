@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rollback</title>
+</head>
+<body>
+
+
+  <h3>
+    Statement: A financial transaction occurs between Akshat and Gokul. Akshat pays Gokul Rs 1000. <br>The Data is inserted into AkshatLedger (Table) and GokulLedger (Table).<br>
+  The Transaction is Successful, hence the data insertion is committed. Check console.</h3>
+
+  <form onsubmit="JavaScript:testingCommit(event)">
+    <div class="submit-sec">
+        <button type="submit" class="submit-btn">Commit</button>
+          <a class="submit-btn" href="index.html">Go Back</a>
+    </div>
+  </form>
+
+
+
+
+    <div id="table">
+
+
+    </div>
+
+    <script src="preload.js"></script>
+</body>
+</html>

@@ -12,7 +12,11 @@ body {
     background-color: #6998AB;
 } */
 
+h3{
+  color: black;
 
+
+}
 td,table{
   border: 1px solid black;
   color: black;
