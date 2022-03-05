@@ -8,7 +8,7 @@
     <title>User Details</title>
 </head>
 <body>
-
+<div id="body">
   <form onsubmit="JavaScript:viewData(event)">
     <div class="submit-sec">
         <button type="submit" class="submit-btn">View All</button>
@@ -23,7 +23,11 @@
         <label for="name">Enter your Name: </label>
         <input type="text" name="name" id="name" placeholder="Eg: Adam S">
     </div>
+
+<div class="form-row">  <p>OR</p> </div>
     <div class="phone-sec form-row">
+
+
         <label for="phone">Phone-num: </label>
         <input type="text" name="phone" id="phone" placeholder="+91 ">
     </div>
@@ -32,12 +36,16 @@
 
     </div>
   </form>
-
+</div>
     <div id="table">
 
 
     </div>
-
+    <form onsubmit="JavaScript:printData(event)" id="printBtn">
+      <div class="submit-sec">
+          <button type="submit" class="submit-btn">print</button>
+      </div>
+    </form>
     <script src="preload.js"></script>
 </body>
 </html>
