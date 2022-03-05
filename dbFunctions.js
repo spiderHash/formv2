@@ -11,7 +11,7 @@ require("fs").readFile("DB.txt", "utf8", (err,data) => {
       password: `${data[1]}`,
       server: `${data[2]}`,
       database: `${data[3]}`,
-      //port: ,
+      port: parseInt(`${data[4]}`),
       synchronize: true,
       trustServerCertificate: true,
   };

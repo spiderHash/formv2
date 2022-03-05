@@ -1,4 +1,5 @@
-UserName
-Password
-ServerName
-DatabaseNamw
+sa
+Ssn@12345
+localhost
+TestDB
+1433
