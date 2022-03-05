@@ -1,6 +1,6 @@
-update the DB.txt as per your details.
-Example:
-SA
-Ssn@12345
-localhost
-TestDB3
+update the DB.txt as per your details.<br/>
+Example:<br/>
+SA<br/>
+Ssn@12345<br/>
+localhost<br/>
+TestDB3<br/>
