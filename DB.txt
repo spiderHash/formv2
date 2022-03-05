@@ -1,4 +1,4 @@
-sa
-Ssn@12345
-localhost
-TestDB
+UserName
+Password
+ServerName
+DatabaseNamw
